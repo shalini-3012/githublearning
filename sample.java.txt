@@ -1,0 +1,26 @@
+public class Vowel {
+public static void main(String[] args) {
+
+char a;
+Scanner sc =new Scanner(System.in);
+System.out.println("enter a character");
+a=sc.next().charAt(0);
+a=Character.toLowerCase(a);
+if(a=='a'||a=='e'||a=='i'||a=='o'||a=='u')
+{
+System.out.println("vowel");
+}
+else
+{
+System.out.println("Not a vowel");
+}
+}
+}
+output
+enter a character
+a
+vowel
+
+
+
+
